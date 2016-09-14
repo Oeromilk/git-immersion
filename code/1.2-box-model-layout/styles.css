@@ -1,0 +1,74 @@
+.ocotodex {
+  display: inline;
+}
+
+img {
+  max-width: 100%;
+}
+
+.image-number:before {
+  color: grey;
+  content: "#";
+}
+
+.image-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: inline-block;
+  border-bottom: solid grey 1px;
+  position: relative;
+}
+
+.image-caption {
+  vertical-align: middle;
+  float: right;
+  display: inline-block;
+}
+
+.octocat {
+  margin: 10px;
+  width: 360px;
+  height: 360px;
+  display: inline-block;
+  border: solid grey 1px;
+  border-radius: 3px;
+}
+.image-footer:before{
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-top-color: #cacaca;
+  position: absolute;
+  right: 4px;
+  top: 0;
+}
+
+ .authors {
+  padding: 0px;
+  list-style-type: none;
+  clear: right;
+  display: inline-block;
+}
+
+.authors li {
+  display: inline-block;
+}
+
+.authors img {
+  vertical-align: middle;
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.image-caption, .image-number, .authors {
+  vertical-align: middle;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
